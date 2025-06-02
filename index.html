@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SparkleClean - Professional Cleaning Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f8;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    ul.services-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul.services-list li {
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    form {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #45a049;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ddd;
+      color: #555;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SparkleClean</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul class="services-list">
+        <li>Residential Cleaning</li>
+        <li>Commercial Cleaning</li>
+        <li>Carpet & Upholstery Cleaning</li>
+        <li>Window Washing</li>
+        <li>Move-in/Move-out Cleaning</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        At SparkleClean, we pride ourselves on delivering top-quality cleaning services tailored to your needs. With years of experience and a dedicated team, we ensure your home or business sparkles every time.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="https://example.com/submit-form" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 SparkleClean. All rights reserved.
+  </footer>
+</body>
+</html>
